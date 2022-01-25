@@ -10,9 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Text("hohoho~")
-            .font(.system(size: 40))
+        VStack {
+            Text("kooko")
+                .font(.system(size: 40))
             .bold()
+            Slider(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(10)/*@END_MENU_TOKEN@*/)
+
+        }
+        
+        
             
     }
 }
