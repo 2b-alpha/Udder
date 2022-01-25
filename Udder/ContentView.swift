@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Text("kooko")
+            Text("아모름직따!")
                 .font(.system(size: 40))
             .bold()
             Slider(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(10)/*@END_MENU_TOKEN@*/)
