@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Text("카우이미지이다 하하~")
+        Text("카우 디자인으로 푸시하면?")
             .font(.system(size: 40))
             .bold()
             
